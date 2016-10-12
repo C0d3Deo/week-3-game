@@ -1,0 +1,17 @@
+body{
+	background-image: url("../images/psychic-bg.jpg");
+	background-size: cover;	
+	color: cyan;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	padding: 5% 15%;
+}0
+
+p {
+	max-width: 100%;
+}
+
+.text-container {
+	width: 3%;
+	display: inline-block;
+	/*float: left;*/
+}

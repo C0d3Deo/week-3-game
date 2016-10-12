@@ -7,7 +7,7 @@
         <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/style.css"> 
+        <link rel="stylesheet" href="assets/css/style.css"> 
     </head>
 
     <body>
@@ -16,24 +16,25 @@
 		<h3>Enter the intense role of Ms. Cleo as a youth just beginning to hone her psychic powers!</h3>
 		<p>Guess the letter your "client" is thinking of</p>
 		<br />
+		<!-- When the javascript updates the counters, it creates a new line. I hypothesize this is because of having an inner div and the natural block properties of divs. Did not have time to fix. -->
 		<p>
 			<strong>Psychic Connections: </strong>
-				<div id="winCt"></div>
+				<div id="winCt" class="text-container"> </div>
 		</p>
 
 		<p>
 			<strong>Cosmic Failures: </strong>
-				<div id="lossCt"></div>
+				<div id="lossCt" class="text-container"> </div>
 		</p>
 
 		<p>
 			<strong>Remaining Psychic Energy: </strong>
-				<div id="guessCntr"></div>
+				<div id="guessCntr" class="text-container"></div>
 		</p>
 		
 		<p>
 			<strong>Past Whispers of the Universe: </strong>
-				<div id="pastInputs"></div>
+				<div id="pastInputs" class="text-container"></div>
 		</p>
 
 		<script type="text/javascript" src="assets/javascript/game.js"></script>

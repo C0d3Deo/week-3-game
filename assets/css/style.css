@@ -4,7 +4,7 @@ body{
 	color: cyan;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	padding: 5% 15%;
-}0
+}
 
 p {
 	max-width: 100%;
@@ -14,4 +14,8 @@ p {
 	width: 3%;
 	display: inline-block;
 	/*float: left;*/
+}
+
+div#pastInputs {
+	display: inline;
 }

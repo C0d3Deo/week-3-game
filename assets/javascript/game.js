@@ -57,7 +57,7 @@ function game (){
 	            	pastInputs.innerHTML = pastGuess;
 	            	//the popups seem to be superseding the commands above it. I could not figure out how to force execution order
 						alert("You lose!");
-						confirm("Try again, chief?");
+						confirm("Try again, child?");
 					if (true) {
 					var lossCt = document.getElementById('lossCt')
 					lossCt.innerHTML = losses++;
